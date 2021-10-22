@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+.top-container {
+  max-width: 91vw;
+  margin: 0 auto;
+}
+.top-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+.top-container .header__cross {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  left: 11px;
+}
+.top-container .header__cross div {
+  position: absolute;
+  width: 16px;
+  height: 3px;
+  background-color: #b4b9bc;
+  border-radius: 8px;
+}
+.top-container .header__cross div:first-child {
+  transform: rotate(45deg);
+}
+.top-container .header__cross div:last-child {
+  transform: rotate(-45deg);
+}
+.top-container .header__purchases span {
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  color: #b4b9bc;
+}
+.content {
+  margin: 0 auto;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content__image {
+  max-width: 203px;
+  margin: 30px auto 20px;
+}
+.content__title {
+  text-align: center;
+  color: #000;
+  font-size: 31px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.content__list {
+  list-style: none;
+  margin: 20px auto 37px;
+}
+.content__list-item {
+  position: relative;
+  font-size: 19px;
+  line-height: 23px;
+  color: #000;
+  margin-left: 13px;
+  letter-spacing: 0.2px;
+}
+.content__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.content__list-item::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: -26px;
+  background-image: url('diamond.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+.content__selects {
+  display: flex;
+  justify-content: space-between;
+  max-width: 91vw;
+}
+.content__select {
+  border: 4px solid #b4b9bc;
+  border-radius: 16px;
+  padding: 16px 10px 20px;
+  width: 120px;
+}
+.content__select-time {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+.content__select-time span {
+  font-size: 46px;
+  line-height: 50px;
+}
+.content__select-time p {
+  font-size: 17px;
+}
+.content__select-price {
+  color: #b4b9bc;
+}
+/*# sourceMappingURL=style.css.map */
