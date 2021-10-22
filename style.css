@@ -87,12 +87,12 @@
 .content__selects {
   display: flex;
   justify-content: space-between;
-  max-width: 91vw;
+  max-width: 400px;
 }
 .content__select {
   border: 4px solid #b4b9bc;
   border-radius: 16px;
-  padding: 16px 10px 20px;
+  padding: 25px 10px 11px;
   width: 120px;
 }
 .content__select-time {
@@ -102,12 +102,17 @@
 }
 .content__select-time span {
   font-size: 46px;
-  line-height: 50px;
+  line-height: 100%;
 }
 .content__select-time p {
   font-size: 17px;
+  line-height: 100%;
+  margin-top: -2px;
 }
 .content__select-price {
   color: #b4b9bc;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  margin-top: 13px;
 }
 /*# sourceMappingURL=style.css.map */
