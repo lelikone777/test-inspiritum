@@ -8,6 +8,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+
 .top-container {
   //max-width: 376px;
   max-width: 91vw;
@@ -94,7 +95,8 @@
   &__selects {
     display: flex;
     justify-content: space-between;
-    max-width: 400px;
+    min-width: 450px;
+    margin: 0 auto;
   }
   &__select {
     border: 4px solid @grey;
@@ -124,6 +126,28 @@
       letter-spacing: 0.3px;
       margin-top: 13px;
     }
+  }
+  &__button {
+    font-size: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  &__text {
+    color: @grey;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 40px auto 40px;
+  }
+  &__link {
+    color: @grey;
+    text-decoration: underline;
   }
 }
 
