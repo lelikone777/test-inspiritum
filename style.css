@@ -19,6 +19,7 @@
   width: 8px;
   height: 8px;
   left: 11px;
+  cursor: pointer;
 }
 .top .header__cross div {
   position: absolute;
@@ -39,6 +40,7 @@
   font-weight: 400;
   letter-spacing: 0.1px;
   color: #b4b9bc;
+  cursor: pointer;
 }
 .content {
   margin: 0 auto;
@@ -96,14 +98,16 @@
 .content__select {
   border: 2px solid #b4b9bc;
   border-radius: 16px;
-  padding: 25px 10px 11px;
+  padding: 25px 8px 11px;
   width: 120px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 .content__select_trial {
   padding-top: 36px;
+  padding-left: 5px;
 }
 .content__select.active {
   position: relative;
@@ -150,6 +154,10 @@
   background-size: 20px 20px;
   background-image: radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
 }
+.content__select.active span,
+.content__select.active p {
+  color: #d75563;
+}
 .content__select-time {
   color: #000;
   text-align: center;
@@ -187,6 +195,7 @@
   background-color: blue;
   color: white;
   border-radius: 38px;
+  cursor: pointer;
 }
 .content__wrap {
   position: relative;
@@ -221,6 +230,7 @@
   font-size: 15px;
   color: #b4b9bc;
   text-decoration: underline;
+  cursor: pointer;
 }
 @keyframes Appearance {
   0% {

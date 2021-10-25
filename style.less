@@ -23,6 +23,7 @@
       width: 8px;
       height: 8px;
       left: 11px;
+      cursor: pointer;
       div {
         position: absolute;
         width: 16px;
@@ -44,6 +45,7 @@
         font-weight: 400;
         letter-spacing: 0.1px;
         color: @grey;
+        cursor: pointer;
       }
     }
   }
@@ -104,13 +106,18 @@
   &__select {
     border: 2px solid @grey;
     border-radius: 16px;
-    padding: 25px 10px 11px;
+    padding: 25px 8px 11px;
     width: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
+    &:nth-child(3) {
+
+    }
     &_trial {
       padding-top: 36px;
+      padding-left: 5px;
     }
     &.active {
       position: relative;
@@ -154,6 +161,9 @@
           background-image: radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
         }
       }
+      span, p {
+        color: #d75563;
+      }
     }
     &-time {
       color: @black;
@@ -194,6 +204,7 @@
     background-color: blue;
     color: white;
     border-radius: 38px;
+    cursor: pointer;
   }
   &__wrap {
     position: relative;
@@ -235,6 +246,7 @@
     font-size: 15px;
     color: @grey;
     text-decoration: underline;
+    cursor: pointer;
   }
 }
 
